@@ -1,4 +1,4 @@
-module github.com/preyaswi/go-grpc-product-svc
+module github.com/preyaswi/go-grpc-order-svc
 
 go 1.21.5
 
@@ -23,6 +23,7 @@ require (
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/jinzhu/copier v0.4.0
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.0 // indirect
